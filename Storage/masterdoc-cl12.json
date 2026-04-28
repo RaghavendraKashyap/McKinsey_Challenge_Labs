@@ -2,7 +2,7 @@
   {
   "Name": "Contoso Company Data Migration & Archiving : Challenge 12",
   "Language": "English",
-  "BaseURL": "https://github.com/CloudLabs-MOC/Challenge-Labs-AZ-104",
+  "BaseURL": "https://github.com/RaghavendraKashyap/McKinsey_Challenge_Labs",
   "Files": [
      {
         "RawFilePath": "https://raw.githubusercontent.com/RaghavendraKashyap/McKinsey_Challenge_Labs/refs/heads/main/Storage/Storage_Challenge.md",
