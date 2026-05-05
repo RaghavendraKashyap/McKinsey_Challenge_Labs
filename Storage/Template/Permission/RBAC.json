@@ -1,0 +1,36 @@
+{
+  "Name": "AZ104 Lab7-02 RBAC",
+  "Id": null,
+  "IsCustom": true,
+  "Description": "AZ104T07-2 RBAC",
+  "Actions": [
+    "Microsoft.Resources/subscriptions/resourceGroups/read",
+    "Microsoft.Resources/subscriptions/resourcegroups/resources/read",
+    "Microsoft.Authorization/roleAssignments/*",
+    "Microsoft.Resources/deployments/*",
+    "Microsoft.Resources/deployments/validate/action",
+    "Microsoft.Compute/virtualMachines/read",
+    "Microsoft.Compute/virtualMachines/write",
+    "Microsoft.Storage/storageAccounts/write",
+    "Microsoft.Storage/storageAccounts/read",
+    "Microsoft.Storage/storageAccounts/listKeys/action",
+    "Microsoft.Storage/storageAccounts/blobServices/containers/write",
+    "Microsoft.Storage/storageAccounts/blobServices/containers/read",
+    "Microsoft.Storage/storageAccounts/fileServices/shares/read",
+    "Microsoft.Authorization/roleAssignments/write",
+    "Microsoft.Storage/storageAccounts/fileServices/*",
+    "Microsoft.Storage/storageAccounts/blobServices/containers/*",
+    "Microsoft.Storage/storageAccounts/blobServices/*",
+    "Microsoft.Storage/storageAccounts/managementPolicies/write",
+    "Microsoft.Storage/storageAccounts/managementPolicies/*",
+    "Microsoft.Network/virtualNetworks/subnets/join/action",
+    "Microsoft.Network/virtualNetworks/write",
+    "Microsoft.Network/virtualNetworks/read",
+    "Microsoft.Network/virtualNetworks/subnets/write",
+    "Microsoft.Network/virtualNetworks/subnets/*"
+
+  ],
+  "NotActions": [
+    "Microsoft.Authorization/*/read"
+  ]
+}
